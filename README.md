@@ -22,6 +22,12 @@ Welcome! 👋 This repository is a collection of small machine learning projects
 - **Dataset** [FakeNewsNet dataset from Kaggle](https://www.kaggle.com/datasets/algord/fake-news)
 ---
 
+### 3. Wine Quality Prediction
+- **Goal:** Predict whether a red wine is of good quality (quality ≥ 7) based on physicochemical features.
+- **Tech:** Random Forest Classifier
+- **Dataset** [Wine quality red dataset](https://archive.ics.uci.edu/ml/datasets/wine+quality)
+---
+
 ## 🚧 In Progress
 
 I'm still learning and improving. More projects and improvements will be added over time!
