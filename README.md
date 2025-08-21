@@ -25,16 +25,18 @@ Welcome! 👋 This repository is a collection of small machine learning projects
 - **Goal:** Predict whether a red wine is of good quality (quality ≥ 7) based on physicochemical features.
 - **Tech:** Random Forest Classifier
 - **Dataset** [Wine quality red dataset](https://archive.ics.uci.edu/ml/datasets/wine+quality)
+
+### 5.Face Mask Detection  
+- **Goal:** Classify images of people with and without face masks using a Convolutional Neural Network (CNN). 
+- **Data Preprocessing:** Resized images to 224×224, normalized pixel values
+- **Model:** Transfer learning with VGG16 (ImageNet). Replaced final layer with a sigmoid Dense layer for binary classification; froze convolutional layers.
+- **Training:** Optimizer: Adam, Loss: Binary Crossentropy, Metrics: Accuracy, Epochs: 5, Batch size: 32.
+- **Evaluation:** Monitored training and validation accuracy/loss curves. 
+- **Tech:** TensorFlow/Keras, OpenCV
+- **Dataset:** Dataset extracted from Kaggle face mask dataset 
 ---
 
 ## 🚧 In Progress
 
 I'm still learning and improving. More projects and improvements will be added over time!
-
----
-
-## 📬 Contact
-
-Feel free to reach out or suggest improvements:
-- ✉️ akolkaromkarcr@gmail.com
 
